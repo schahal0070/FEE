@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: radial-gradient(skyblue, rgb(46, 46, 139), purple, rgb(225, 172, 242), rgb(235, 37, 212));
+    color: white;
+    font-family: "Italianno", cursive;
+}
+
+.box{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: normal;
+}

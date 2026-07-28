@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Courgette", sans-serif;
+            min-height: 100dvh;
+            font-size: 18px;
+            background-color: white;
+            color: white;
+        }
+        .box{
+            background-color: rgb(187, 56, 56);
+        }
+        section{
+            padding: 10px
+        }
+        .left{
+            flex: 1;
+            background-color: rgb(144, 60, 74);
+        }
+        .right{
+            flex: 1;
+            background-color: rgb(229, 148, 161);
+        }
+    </style>
+</head>
+<body>
+    <section class = "box" style = "height: 10vh">Header/Navbar</section>
+    <section class = "box" style = "height: 80vh; display: flex">
+        <div class = "left"></div>
+        <div class = "right"></div>
+    </section>
+    <section class = "box" style = "height: 10vh">Footer</section>
+</body>
+</html>
