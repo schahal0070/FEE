@@ -1,0 +1,26 @@
+Q1. What do you know about functions?
+
+a function does one special job. we can use it many times and it saves time and code.
+
+Q2. What is layout?
+
+layout means how things are placed on a web page. it makes the page neat.
+t helps users see everything properly.
+
+Q3. What do you know about Flex Layout?
+
+flex Layout arranges items in a row or a column.
+it keeps items in the right place.
+it is easy to use.
+
+Q4. What is the need of Grid Layout?
+
+Grid Layout makes rows and columns.
+It helps arrange items neatly.
+It is good for making web pages.
+
+Q5. What is the use of GitHub?
+
+GitHub is used to save code.
+It helps share code with others.
+Many people can work on one project together.
