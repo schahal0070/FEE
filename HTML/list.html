@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style1.css"/>
+</head>
+<body>
+    <header class = "fcx">&#9812;</header>
+    <main>
+        <h3>List1</h3>
+        <ul id="ul">
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ul>
+        <br />
+        <h3>List2</h3>
+        <ul id = "ul">
+            <li>Four</li>
+            <li>Five</li>
+            <li>Six</li>
+        </ul>
+    </main>
+    <footer class = "fcx">&#9814;</footer>
+
+    <script>
+        var ul = document.getElementByTagName("ul");
+        var ul = document.querySelectorAll("ul");
+
+        ul[0].style.cssText = "background-color:lightgreen; color:white;";
+        ul[1].style.cssText = "background-color:lightblue; color:white;";
+
+        let ul0 = ul[0].firstElementChild;
+        ul0.style.fontSize = "1.5rem";
+        ul0.nextElementSibling.style.color = "yellow";
+
+        let ul1 = ul[1].lastElementChild;
+        ul1.style.color = "green";
+    </script>
+</body>
+</html>

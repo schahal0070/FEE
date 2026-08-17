@@ -1,7 +1,7 @@
 const newSection2 = document.createElement("Section");
 newSection2.id = "b";
 newSection2.textContent= "Section2";
-
+//tue chd rtt gadi
 newSection2.classList.add("box");
 newSection2.classList.add("bg1");
 newSection2.classList.add("box", "bg1");
@@ -25,11 +25,20 @@ newSection3.style.height ="10rem";
 newSection3.style.cssTect = "width:20rem; height:10rem";
 
 const Section1 = document.getElementById("a");
-document.body.insertBefore(newSection3, section1);
+//document.body.insertBefore(newSection3, section1);
 
-newSection2.remove();
-document.getElementById("b").remove();
-newSection2.style.cssText = "color: red, font-size: 20px";
+// newSection2.remove();
+// document.getElementById("b").remove();
+// newSection2.style.cssText = "color: red, font-size: 20px";
 //DOM Traversal
-document.body.firstElementChild.style.color = "red";
-document.body.lastElementChild.style.color = "red";
+var firstElement = document.body.firstElementChild;
+
+firstElement.style.fontSize = "1.25rem";
+console.log(firstElement);
+let lastElement = document.body.lastElementChild;
+lastElement.style.fontSize = "2rem";
+
+var firstElement = document.getElementById("a");
+var firstElement = document.querySelector("#a");
+var arrary = document.querySelectorAll("section");
+array[2].style.width = " 20rem";
