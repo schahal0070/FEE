@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Italianno", cursive;
+}
+
+body {
+    min-height: 100dvh;
+    background: rgb(205, 134, 246);
+    color: rgb(205, 134, 246);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    width: 25rem;
+    height: 10rem;
+    background: #1a104f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px hsla(0, 0%, 0%, 0.2);
+}
+
+.time {
+    font-size: 3rem;
+} 

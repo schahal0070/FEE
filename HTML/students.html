@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Names</title>
+</head>
+
+<body>
+
+    <h2>Student Names</h2>
+    <ul id="studentList"></ul>
+
+    <script>
+        const studentData = [
+            {
+                id: 1,
+                name: "Raj",
+                course: "Javascript",
+                marks: 90
+            },
+            {
+                id: 2,
+                name: "Simran",
+                course: "Java",
+                marks: 85
+            }
+        ];
+        const studentList = document.getElementById("studentList");
+
+        studentData.forEach((student) => {
+            const li = document.createElement("li");
+
+            li.textContent = student.name;
+
+            studentList.appendChild(li);
+        });
+    </script>
+
+</body>
+</html>
