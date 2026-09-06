@@ -49,7 +49,6 @@ export function ShowList2() {
                     {brand === "All" && <span>Brand</span>}
                     <span>Price</span>
                 </div>
-
                 {filteredProducts.map((product) => (
                     <div key={product.id}>
                         <span>{product.id}</span>
