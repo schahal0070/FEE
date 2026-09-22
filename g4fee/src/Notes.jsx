@@ -123,7 +123,7 @@ export function Notes() {
                     </div>
                 ))}
             </div>
-
+            
         </section>
     );
 }
