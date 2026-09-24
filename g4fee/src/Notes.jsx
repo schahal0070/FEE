@@ -64,6 +64,7 @@ export function Notes() {
                     placeholder="Write your note..."
                     spellCheck={false}
                     className="fs1"
+                
                     style={{ height: "7rem" }}
                 />
 
@@ -119,11 +120,10 @@ export function Notes() {
                                 Delete
                             </button>
                         </div>
-
+                        
                     </div>
                 ))}
             </div>
-            
         </section>
     );
 }
