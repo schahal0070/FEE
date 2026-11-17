@@ -10,7 +10,6 @@ export function Nav1() {
     function handleClick(){
         logout();
         toast.success;
-        
         toast.success("Logged Out Successfully");
         setTimeout(() => {
             navigate("/");
