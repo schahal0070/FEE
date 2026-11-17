@@ -11,7 +11,7 @@ export function Nav1() {
         logout();
         toast.success;
         
-        toast.sucscess("Logged Out Successfully");
+        toast.success("Logged Out Successfully");
         setTimeout(() => {
             navigate("/");
         }, 1500);
